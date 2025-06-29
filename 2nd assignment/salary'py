@@ -1,0 +1,10 @@
+#WAp to calculate total salary of employe based on basic da=10% of basic,ta=12% of basic,hra=15%basic
+basic=int(input("enter the basic price:"))
+da=0.10*basic
+ta=0.12*basic
+hra=0.15*basic
+total_salary=(basic+da+ta+hra)
+print("da %10:",da)
+print("ta 12%:",ta)
+print("hra 15%:",hra)
+print("total_salary:",total_salary)
